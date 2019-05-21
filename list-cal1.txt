@@ -1,0 +1,7 @@
+conda create --name cal1 python=3.6.3 numpy=1.12.1 xarray=0.10.3 netcdf4=1.3.1 matplotlib=2.0.2 cartopy=0.16.0 notebook=5.4.1
+
+conda activate cal1
+
+conda install -c conda-forge cmocean
+
+python -m ipykernel install --user --name cal1 --display-name cal1
